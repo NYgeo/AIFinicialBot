@@ -7,7 +7,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hi! I'm the Headstarter support assistant. How can I help you today?",
+      content: "Hi! I'm the Rizzler assistant. Send your crushes' message for help ;)",
     },
   ])
   const [message, setMessage] = useState('')
@@ -86,7 +86,7 @@ export default function Home() {
               <Box
                 bgcolor={
                   message.role === 'assistant'
-                    ? 'primary.main'
+                    ? '#FC8EAC'
                     : 'secondary.main'
                 }
                 color="white"
